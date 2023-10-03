@@ -1,7 +1,6 @@
 package techware.java.Domain;
 
-public class usuarioPadaria {
-
+public class Employees {
     private int id = 0;
     public String name = "";
     public String lastName = "";
