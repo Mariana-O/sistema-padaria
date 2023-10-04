@@ -1,13 +1,16 @@
 package techware.java;
 
+import techware.java.View.Tela;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
+        Tela tela = new Tela();
 
-        System.out.printf("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-
-            System.out.println("i = " + i);
-        }
+        tela.telaInicial();
     }
+
 }
+
+
+
+
